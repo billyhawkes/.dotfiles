@@ -4,11 +4,10 @@ This is my collection of dotfiles for ease of install, awareness and sync of set
 
 ## Setup
 
----
-
 1. Clone repo into ~/.dotfiles
 
 ```
+git clone https://github.com/billyhawkes/.dotfiles.git
 
 ```
 
