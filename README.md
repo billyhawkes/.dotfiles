@@ -8,11 +8,11 @@ This is my collection of dotfiles for ease of install, awareness and sync of set
 
 ```
 git clone https://github.com/billyhawkes/.dotfiles.git
-
 ```
 
 2. Create symlinks from .dotfiles to home
 
 ```
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+ln -s ~/.dotfiles/.vimrc ~/.vimrc
 ```
