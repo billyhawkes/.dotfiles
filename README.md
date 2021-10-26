@@ -15,11 +15,5 @@ git clone https://github.com/billyhawkes/.dotfiles.git
 ```
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/.vimrc ~/.vimrc
-ln -s ~/.dotfiles/.zshrc ~/.zshrc
-```
-
-3. Install ZSH
-
-```
-sudo apt install zsh
+ln -s ~/.dotfiles/.bashrc ~/.bashrc
 ```
