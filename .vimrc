@@ -12,9 +12,10 @@ set nu
 set incsearch
 set noerrorbells
 set scrolloff=8
+set encoding=utf-8
 
 " Plugins "
-" Manager - Vim Plug, Install - PlugInstall, 
+" Manager - Vim Plug, Install - PlugInstall 
 call plug#begin()
 
 Plug 'morhetz/gruvbox'
