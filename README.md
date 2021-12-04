@@ -1,19 +1,15 @@
 # .dotfiles
 
-This is my collection of dotfiles for ease of install, awareness and sync of settings across systems
+This is my collection of dotfiles.
 
-## Setup
-
-1. Clone repo into ~/.dotfiles
+### Install
 
 ```
 git clone https://github.com/billyhawkes/.dotfiles.git
 ```
 
-2. Create symlinks from .dotfiles to home
+### Setup
 
 ```
-ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/.vimrc ~/.vimrc
-ln -s ~/.dotfiles/.bashrc ~/.bashrc
+cd .dotfiles && stow . && cd ..
 ```
