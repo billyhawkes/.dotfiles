@@ -1,4 +1,4 @@
-theme = "solarized-dark"
+theme = "gruvbox-dark"
 icons = "awesome"
 
 [[block]]
@@ -32,4 +32,4 @@ block = "sound"
 [[block]]
 block = "time"
 interval = 5
-format = "%a %m-%d %R"
+format = "%a %d/%m/20%y %R"
