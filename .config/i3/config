@@ -144,5 +144,16 @@ bindsym $mod+r mode "resize"
 
 # i3bar #
 bar {
-        status_command /usr/bin/i3status-rs /home/billy/.config/i3status-rs/config.toml
+    position top
+    status_command /usr/bin/i3status-rs /home/billy/.config/i3status-rs/config.toml
+
+    colors {
+        background #1d2021
+        statusline #ffffff
+        separator #666666
+
+        focused_workspace #fbf1c7 #fbf1c7 #1d2021
+        active_workspace #fbf1c7 #fbf1c7 #1d2021
+        inactive_workspace #282828 #282828 #fbf1c7
+    }
 }
